@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "start": "deno run mod.ts --allow-read --allow-write && cd rust && cargo run . && cd .."
+  }
+}
